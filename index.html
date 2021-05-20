@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cantero Rafael - Cátedra PWA</title>
+    <link rel="stylesheet"type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+   
+<header class="container-fluid bg-micolor contact-form py-3">
+            <h1 class="text-center text-white">Estado del tiempo</h1>
+         <div class="row">  
+       <div class="col-12 text-center">
+            <form id="contact-form">
+                <label for="search" class="text-white">Búsqueda por Ciudad:</label>
+                <input title="Search" id="search" value="" type="text" class="mx-2" required/>
+
+                <button id="sendButton" type="button" role="button" class="btn btn-sm btn-info">Enviar</button>
+            </form>
+        </div>
+        
+</header>
+        
+        
+<main>       
+        
+<section class="container mt-5">
+    <div class="row justify-content-center">  
+         <div class="card col-6 borde mb-5 py-2 tempe" style="width:20rem;">
+                  <div class="card-body">
+                    <p class="card-text"><span class="ciudad h1"></span></p>
+                    <p class="card-text"><span class="pais h2"></span></p>   
+                    <p class="card-text encabezado">Temperatura:</p>
+                    <p><span class="temperatura h3"></span></p>
+                  </div>
+         </div>
+     
+        <div class="card col-6 bg-info mb-5  py-2" style="width:10rem" >  
+            <img  class="card-img-top icono"> 
+            <p class="card-text text-center"><span class="descripcion h5"></span></p>  
+        </div>
+    </div>
+</section>          
+           
+
+<section class="container my-3">
+    <div class="row">
+        <div class="card col-12 col-md-3 mx-auto mb-3 borde sombra maxima" >
+            <div class="card-body">
+                <p class="card-text encabezado">Máxima:</p>
+                <p><span class="tempmax h3"></span></p>
+            </div>
+        </div>
+        
+        <div class="card col-12 col-md-3 mx-auto mb-3 borde sombra minima">
+              <div class="card-body">
+                <p class="card-text encabezado">Mínima:</span></p>
+                <p><span class="tempmin h3"></p>
+              </div>
+        </div>
+        
+        <div class="card col-12 col-md-3 mx-auto mb-3 borde sombra sensacion">
+              <div class="card-body">
+                <p class="card-text encabezado">Sensación Térmica:</p>
+                <p><span class="senst h3"></span></p>
+              </div>
+        </div>
+    </div>
+</section>
+       
+
+       
+        
+        
+<section class="container my-3">
+    <div class="row">
+        <div class="card col-12 col-md-3 mx-auto mb-3 borde sombra hume">
+              <div class="card-body">
+                  <p class="card-text encabezado">Humedad:</p>
+                  <p><span class="humedad h3"></span></p>
+              </div>
+        </div>
+        
+        <div class="card col-12 col-md-3 mx-auto mb-3 borde sombra wind">
+              <div class="card-body">
+                  <p class="card-text encabezado">Viento:</p>
+                  <p><span class="viento h3"></span></p>
+              </div>
+        </div>
+    
+        <div class="card col-12 col-md-3 mx-auto mb-3 borde sombra presi">
+              <div class="card-body">
+                  <p class="card-text encabezado">Presión:</p>
+                  <p><span class="presion h3"></span></p>
+              </div>
+        </div>
+    </div> 
+</section>
+ 
+ <div class="text-center my-5 container-fluid">
+ <iframe
+  width="75%"
+  height="300px"
+  class="mapa"
+  frameborder="0" style="border:0"
+  src="" allowfullscreen>
+</iframe>
+</div>
+ 
+  
+</main> 
+  
+  
+<footer>
+    <div class="alumno text-center">
+        <ul>
+            <li><strong>Alumno:</strong> Rafael Cantero</li>
+            <li><strong>Carrera:</strong> Diseño Web</li>
+            <li><strong>Materia:</strong> Aplicaciones Web Progresivas</li>
+            <li><strong>Profesor:</strong> Gonzalo Rubino</li>
+            <li><strong>Comisión:</strong> 3 Noche A</li>
+            <li><strong>2021 &copy;</strong></li>
+         </ul>
+    </div>
+</footer>  
+   
+    
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+   
+    font-family: Ubuntu, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    line-height: 1.4;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.bg-micolor {
+    background-color: #024488;
+}
+
+.borde {
+    border: 1px solid grey;
+}
+
+.encabezado {
+    font-weight: bold;
+    color:#024488
+}
+
+.alumno {
+    background-color: #024488;
+    color:white;
+    padding:35px;
+}
+
+.sombra {
+    box-shadow: 10px 5px 5px grey;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.tempe {
+    background-image: url(../imagenes/temperature.gif);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+
+.maxima {
+    background-image: url(../imagenes/summer.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+
+.minima {
+    background-image: url(../imagenes/winter.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+
+}
+
+.sensacion {
+    background-image: url(../imagenes/temperature.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+
+}
+
+
+.hume {
+    background-image: url(../imagenes/wet.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:contain;
+
+}
+
+.presi {
+    background-image: url(../imagenes/barometro.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+
+}
+
+.wind {
+    background-image: url(../imagenes/viento1.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+
+}
